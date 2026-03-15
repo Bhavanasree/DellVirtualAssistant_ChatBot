@@ -61,6 +61,7 @@ This project implements a RAG system that allows users to query Dell laptop info
    ```
    PDF_FOLDER=pdfs
    # AWS credentials should be configured via AWS CLI or environment variables
+   # Cohere API key should be configured via AWS CLI or environment variables.
    ```
 
 5. **Place PDF files**:
