@@ -59,9 +59,13 @@ This project implements a RAG system that allows users to query Dell laptop info
 4. **Set up environment variables**:
    Create a `.env` file in the backend directory:
    ```
-   PDF_FOLDER=pdfs
-   # AWS credentials should be configured via AWS CLI or environment variables
+   # AWS credentials-Access key, Secret Access key and default region should be configured via AWS CLI or environment variables
    # Cohere API key should be configured via AWS CLI or environment variables.
+   AWS_ACCESS_KEY_ID=Your Key
+   AWS_SECRET_ACCESS_KEY=Your secret key
+   AWS_DEFAULT_REGION=ap-south-1
+   COHERE_API_KEY=Your key
+   PDF_FOLDER=pdfs
    ```
 
 5. **Place PDF files**:
